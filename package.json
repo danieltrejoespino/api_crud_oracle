@@ -1,0 +1,29 @@
+{
+  "name": "node_1",
+  "version": "1.0.0",
+  "description": "pruebas1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danieltrejoespino/crud_mysql_nodejs.git"
+  },
+  "keywords": [
+    "crud",
+    "mysql",
+    "nodejs"
+  ],
+  "author": "Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danieltrejoespino/crud_mysql_nodejs/issues"
+  },
+  "homepage": "https://github.com/danieltrejoespino/crud_mysql_nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.4.0",
+    "pug": "^3.0.2"
+  }
+}
