@@ -3,8 +3,8 @@ const controller={}
 const title='hola mundo';
 
 controller.index= (req,res)=>{
-    //res.send('conexion exitosa :)')
-    res.render('index',{title:title})
+    // res.send('conexion exitosa :)')
+    res.render('index',{titulo:title})
 }
 controller.test= (req,res)=>{
     //res.send('conexion exitosa :)')
